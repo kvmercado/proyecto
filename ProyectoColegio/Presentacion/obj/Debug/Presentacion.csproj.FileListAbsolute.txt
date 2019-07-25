@@ -1,0 +1,2 @@
+C:\Users\DANIEL\source\repos\ProyectoGimnasio\Presentacion\obj\Debug\MODERN_GUI_2.exe
+C:\Users\DANIEL\source\repos\ProyectoGimnasio\Presentacion\obj\Debug\MODERN_GUI_2.pdb

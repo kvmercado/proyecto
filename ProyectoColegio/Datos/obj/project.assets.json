@@ -1,0 +1,66 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.0": {
+      "Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Entidades/1.0.0": {
+      "type": "project",
+      "path": "../Entidades/Entidades.csproj",
+      "msbuildProject": "../Entidades/Entidades.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.0": [
+      "Entidades >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\KEVIN\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\ProyectoColegio\\Datos\\Datos.csproj",
+      "projectName": "Datos",
+      "projectPath": "E:\\ProyectoColegio\\Datos\\Datos.csproj",
+      "packagesPath": "C:\\Users\\KEVIN\\.nuget\\packages\\",
+      "outputPath": "E:\\ProyectoColegio\\Datos\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\KEVIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "projectReferences": {
+            "E:\\ProyectoColegio\\Entidades\\Entidades.csproj": {
+              "projectPath": "E:\\ProyectoColegio\\Entidades\\Entidades.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "netstandard2.0": {}
+    }
+  }
+}
